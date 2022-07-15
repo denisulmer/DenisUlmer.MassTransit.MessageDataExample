@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>3653523a-7413-4dc2-9a1e-6fdb26f692ad</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MassTransit" Version="8.0.5" />
+		<PackageReference Include="MassTransit.Analyzers" Version="8.0.5" />
+		<PackageReference Include="MassTransit.Azure.Storage" Version="8.0.5" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.7" />
+	</ItemGroup>
+
+</Project>
